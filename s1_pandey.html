@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Reassessment and Reformulation of the LQI Framework for the Optimisation of Structural Safety &#8212; Workshop Documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 's1_pandey';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Principles – Moderated Discussion" href="s2_discussion.html" />
+    <link rel="prev" title="Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC" href="s1_cao.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="_static/searchtools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="searchindex.js"></script>
+  
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/JCSS_logo.png" class="logo__image only-light" alt="Workshop Documentation - Home"/>
+    <img src="_static/JCSS_logo.png" class="logo__image only-dark pst-js-only" alt="Workshop Documentation - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Societal Preferences on Risk Acceptance
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">The Workshop</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="programme.html">Programme and Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session0.html">Introduction: Welcome and Workshop Objectives</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 1 – Foundations of Societal Risk Acceptance: Principles</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s1_yuan.html">A Macroeconomic Framework for Determining a Proper Level of Investment on Infrastructure Renewal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s1_cao.html">Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Reassessment and Reformulation of the LQI Framework for the Optimisation of Structural Safety</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 2 – The Principles: Moderated Discussion</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s2_discussion.html">The Principles – Moderated Discussion</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 3 – Risk Acceptance in Regulation and Practice</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s3_koehler.html">Risk Acceptance Regulation in Europe – One Market, Many Rationales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s3_steenbergen.html">Risk Acceptance in the Netherlands – Flood Defence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s3_caprani.html">Risk Acceptance Practice and Regulation in Australia – Australian Practice and the Case for Symmetry</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 4 – Applications</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s4_knibbe_steenbergen.html">Including CO₂ Emissions in Risk Acceptance Criteria – Augmented LQI Criterion and Combined Optimisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s4_goda.html">Multi-Hazard Perspectives of Acceptable Shaking–Tsunami Risks for Coastal Communities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s4_zhou.html">Probabilistic Tornado Wind Hazard Maps for Canada</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 5 – Conclusions and Outlook</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s5_discussion.html">Conclusions and Outlook – Closing of the Workshop and Written Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions of the Workshop</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/2026_Risk_Acc_WS" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/2026_Risk_Acc_WS/issues/new?title=Issue%20on%20page%20%2Fs1_pandey.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/s1_pandey.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Reassessment and Reformulation of the LQI Framework for the Optimisation of Structural Safety</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="reassessment-and-reformulation-of-the-lqi-framework-for-the-optimisation-of-structural-safety">
+<h1>Reassessment and Reformulation of the LQI Framework for the Optimisation of Structural Safety<a class="headerlink" href="#reassessment-and-reformulation-of-the-lqi-framework-for-the-optimisation-of-structural-safety" title="Link to this heading">#</a></h1>
+<p><strong>Mahesh Pandey, UNENE Industrial Research Chair, Department of Civil and Environmental Engineering, University of Waterloo, Canada</strong></p>
+<p>Session 1 · Wednesday 21 October 2026, 15.31–16.57 (presentation and discussion)</p>
+<p><a class="reference download internal" download="" href="_downloads/a6a68489d10b5033cf5dddfc36d51598/Pandey_Reassessment_LQI_Framework.pdf"><span class="xref download myst">Presentation slides (PDF)</span></a></p>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<p>The presentation went back to the original thinking behind the Life Quality Index (LQI), traced how the derived measures and in particular the break-even criterion and the societal willingness to pay (SWTP) came about, and proposed a reformulation in which the LQI is used directly as the objective function of the structural safety optimisation.</p>
+<p><strong>Motivation.</strong> The LQI, conceived in the late 1990s, was connected to structural safety by Rackwitz and Ditlevsen, and the marginal life-saving cost principle was applied to real code calibration by Fischer, Faber and others; by then the framework seemed settled. The critique that the approach yields very different target reliabilities for different countries (Bhattacharya) – a paper the speaker reviewed and, like all reviewers, supported for publication – was the starting point for a reassessment: go back to what Lind wrote in the 1990s and see whether the original spirit of the framework can address the stated limitations.</p>
+<p><strong>Evolution of the LQI.</strong> Lind (1989) proposed a <em>lifetime efficiency index</em>: time of human life is the fundamental measure of value; the lifetime gained by a safety measure should exceed the working time consumed to pay for it. Quality-adjusted life expectancy (Lind, Nathwani and Siddall, 1991) was identified as the proper measure of human safety – lives cannot be saved, death can be postponed – but was hard to quantify. The UNDP Human Development Index (1992) inspired a surrogate with two dimensions, duration of life (life expectancy <span class="math notranslate nohighlight">\(E\)</span>) and quality of life (GDP per person <span class="math notranslate nohighlight">\(G\)</span> as the indicator with reliable data for almost all countries), balanced by the fraction of time spent working: the Life Product Indicator <span class="math notranslate nohighlight">\(P = b^w e\)</span> in the Waterloo “blue books” (motivated by Siddall’s question at the Atomic Energy Control Board whether the money spent on nuclear safety systems was diverting resources from other social programmes), renamed LQI in the 1997 “black book” (Nathwani, Lind and Pandey) and written <span class="math notranslate nohighlight">\(L = g^w e^{1-w}\)</span>, then <span class="math notranslate nohighlight">\(L = g^q e\)</span>. Two readings coexist in the literature: the LQI as a parametric function of algebraic quantities, and the LQI as a utility function – the expected lifetime utility of consumption of a statistically representative individual, with the lifetime <span class="math notranslate nohighlight">\(T\)</span> as the only random variable (Voortman et al. 2001, Pandey, Nathwani and Lind 2006).</p>
+<p><strong>The basic postulate</strong> of the framework from 1989 to 2000 was always <em>maximise the total expected net benefit to society</em>; the LQI serves to assess whether a prospect confers a positive net benefit compared with a base case, <span class="math notranslate nohighlight">\(dL/L = w\,dg/g + (1-w)\,de/e &gt; 0\)</span>.</p>
+<p><strong>How the break-even criterion and the SWTP came about.</strong> The first applications (Nathwani et al. 1997) assessed the efficiency of safety regulations from the only information available in the risk-analysis literature – lives saved and cost per life saved – so that a formal optimisation was impossible and the break-even line <span class="math notranslate nohighlight">\(dL = 0\)</span> served as a <em>screening tool</em> to separate clearly efficient from clearly inefficient regulations, with judgment for the marginal cases. The SWTP (Pandey and Nathwani 2003) arose in the context of the Darlington nuclear station: knowing only the cost of the safety systems, the implied gain in life expectancy that would keep society on the same LQI indifference curve was computed, <span class="math notranslate nohighlight">\(\mathrm{SWTP} = (-dg)\,n = n\,(g/q)\,(de/e)\)</span>. SWTP is the marginal rate of substitution along the indifference curve, which necessarily differs between rich and poor countries (Canada: LQI 178, MRS 2 973 US<span class="math notranslate nohighlight">\(; India: 103 and 496 US\)</span>); the GDP dependence criticised later is built into the model rather than a new finding. SCCR, ICAF and the J-value are all derived from the same break-even condition.</p>
+<p><strong>Side effects.</strong> In retrospect the SWTP was a regressive development. It was derived for a special context but became generalised because it was simple to use: it turned into a <em>minimum acceptable safety level</em>, the original objective of maximising net benefit was forgotten (after 2006 there is no reference to LQI optimality), its proportionality to GDP caused disparities, and the frequently drawn conclusion that “economic optimisation leads to higher safety than the LQI” is simply a consequence of the SWTP not being an optimal result – which diminished the role of the LQI in setting safety standards.</p>
+<p><strong>Economic optimisation as the model.</strong> Optimisation as the basis for design codes goes back to Rosenblueth (1976) and was reformulated by Rackwitz from the mid-1990s: maximise <span class="math notranslate nohighlight">\(Z(p) = B(p) - C(p) - D(p)\)</span>, which – since the benefit is independent of the design parameter – becomes a cost minimisation. Cost minimisation does not mean that the structure produces no benefit; the benefit is irrelevant to the choice of <span class="math notranslate nohighlight">\(p\)</span> given that the structure is built. Several formulations exist (first failure versus renewal process, finite versus infinite horizon, discounting, obsolescence) which give different optima; no normalisation per capita is needed.</p>
+<p><strong>LQI formulation of the same problem.</strong> With the same boundary conditions – a structure with annual <span class="math notranslate nohighlight">\(p_f\)</span> is put into service for a horizon <span class="math notranslate nohighlight">\(t\)</span> – the societal consequences are an economic impact (life-cycle cost distributed to the exposed population reduces GDP per person) and a life-safety impact (mortality increases by <span class="math notranslate nohighlight">\(p_{d|f}\,p_f\)</span>, life expectancy decreases). The post-construction LQI <span class="math notranslate nohighlight">\(L_2(p_f) = g_2^q e_2\)</span> is always below the ideal <span class="math notranslate nohighlight">\(L_0 = g_0^q e_0\)</span> at <span class="math notranslate nohighlight">\(p_f = 0\)</span>, since both impacts are losses: <em>in this problem an LQI break-even condition does not exist</em>, and using it as a constraint in cost minimisation is unwarranted. The objective is instead to minimise the reduction in LQI. Two computational issues deserve to be confronted rather than buried in derivations: how programme costs transfer to GDP (the common assumption distributes the total life-cycle cost equally over the exposed population and the horizon, like a tax; amortisation or insurance-premium logic are alternatives), while the change in life expectancy from a change in mortality is systematically covered by survival analysis.</p>
+<p><strong>Normalised form and bounds.</strong> Writing the life-cycle cost in cost ratios <span class="math notranslate nohighlight">\(c_1, c_0, c_F\)</span> normalised by the construction cost per square metre (Sýkora et al. 2017), the normalised LQI loss has a cost term proportional to <span class="math notranslate nohighlight">\(C_{st}/g_0\)</span> – the production time in years needed to cover the construction cost – and a life-safety term in expected life years lost, nearly linear in <span class="math notranslate nohighlight">\(p_f\)</span>. If the cost is negligible, life safety governs and <span class="math notranslate nohighlight">\(p_f \to 0\)</span> for rich and poor countries alike; if fatalities are negligible, the problem reduces to cost minimisation; the inter-country differences are governed by <span class="math notranslate nohighlight">\(C_{st}/g_0\)</span> alone, which gives sensible and interpretable bounds for the target.</p>
+<p><strong>Canada and India.</strong> Construction costs from RSMeans (PPP adjusted; office building about 2 000 US<span class="math notranslate nohighlight">\(/m² in Canada and 1 300 in India), GDP per person (48 600 versus 7 000 US\)</span>), life expectancy (81.7 versus 70.2 years) and cost ratios inferred from the RSMeans cost breakdown (structure, roof and exterior envelope taken as safety related, about 24 % for an office building) were used. For expected fatalities of 0.001, 0.01 and 0.1 per m² of failed structure the target annual <span class="math notranslate nohighlight">\(p_f\)</span> for Canada and India comes out in the same order of magnitude – the ratio <span class="math notranslate nohighlight">\(C_{st}/g_0\)</span> is four times larger for India – and the LQI-optimal target for <span class="math notranslate nohighlight">\(n_{d|f} = 0.01\)</span> (<span class="math notranslate nohighlight">\(p_f = 2.2\cdot10^{-5}\)</span>) is close to the National Building Code of Canada target of <span class="math notranslate nohighlight">\(\beta = 3\)</span> for 50 years. The LQI target is lower than the cost-minimisation target and much more consistent across countries than the SWTP-based target, where the ratio of GDPs would give a failure probability about eight times higher for India.</p>
+<p><strong>The flood safety example</strong> (a reanalysis of the dike-height problem of Voortman 2003 and van Dantzig 1956) shows the “proper” formulation with a base case: an existing dike with <span class="math notranslate nohighlight">\(p_{f0} = 10^{-4}\)</span> per year (unacceptable) and the alternative of raising it. Here the base case has losses and the alternative has gains, so three criteria can be compared: LQI break-even (<span class="math notranslate nohighlight">\(p_f = 3.4\cdot10^{-5}\)</span>), cost minimisation (<span class="math notranslate nohighlight">\(5.4\cdot10^{-6}\)</span>) and maximum LQI gain (<span class="math notranslate nohighlight">\(3.6\cdot10^{-6}\)</span>).</p>
+<p><strong>Conclusions.</strong> The fundamental postulate of the LQI approach – manage risk to maximise the total expected net benefit to society – allows the LQI to be used directly as an objective function; the structural safety optimisation can be solved as the minimisation of a reduction-in-LQI functional, similar to cost minimisation; the break-even condition does not exist in that problem and its use as a constraint is unwarranted; the normalised form gives sensible bounds and more consistent targets across rich and poor nations, and thus overcomes the stated shortcomings of the LQI framework.</p>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Link to this heading">#</a></h2>
+<p><em>Summary of the discussion following the presentation (edited from the recording).</em></p>
+<p><strong>The reference state.</strong> The most debated point was the characterisation of the reference LQI <em>L<sub>0</sub></em> as the state with zero failure probability. Raphaël Steenbergen, Arnold Yuan and Colin Caprani questioned this abstraction: a structure with <em>p<sub>f</sub></em> = 0 would cost infinitely much, structures are built to codes, and in the equation as written the construction industry reduces the GDP rather than contributing to it. The speaker explained that the formulation deliberately mirrors the life-cycle cost minimisation, which likewise rests on the decision to build already being taken, with the benefit cancelled; a more structured formulation with a base case – an existing unsafe structure and an improved alternative, as in the flood safety example shown at the end – yields gains and losses and thus a break-even point. Jochen Köhler agreed that the decision on the design parameter is conditional on the decision to build; the question whether current practice lies to the left or the right of the optimum – and whether the break-even should be referred to the status quo – remained open, with the tentative view that new structures are rather over-designed and existing structures with maintenance backlogs under-maintained.</p>
+<p><strong>Cost model and inputs.</strong> A participant new to the field asked why safety measures are treated as pure costs when they may also increase productivity, and where the loss of functionality enters; both can be accommodated in a more sophisticated model, the stylised linear formulation being a historical simplification. Jochen Köhler and Jannie Nielsen questioned the generalisability of the cost ratio <em>C<sub>1</sub></em>: the safety-related share of the construction cost taken from the RSMeans breakdown (about a quarter for an office building) is a heuristic, the linear dependence on the central safety factor is not realistic, and only real structures designed to different consequence classes would reveal the actual cost of safety. The speaker acknowledged that these inputs drive the results and need sounder data if the approach is pursued.</p>
+<p><strong>Epistemic uncertainty.</strong> André Beck (online) raised the concern that the failure probabilities underlying all these criteria cannot be verified against observed collapse rates and may be wrong in either direction (neglected failure modes, hidden system safety). The speaker and Jochen Köhler answered that the analysis aims at orders of magnitude, that the optimisation uses the derivative with respect to the design parameter so that uncontrolled effects drop out, and that the seismic community’s detailed loss models show where a more refined treatment would lead. Arnold Yuan illustrated at the whiteboard the questions of reference point, status quo and the extra investment for extreme events.</p>
+<p><strong>GDP per person and solidarity.</strong> Colin Caprani objected that the GDP per person hides the distribution within a country – Mumbai versus rural India – and asked whether the Gini coefficient could correct this. The speaker replied that its range is too small to change the result much, but that the LQI optimisation in any case dampens the sensitivity to the GDP, whereas the SWTP-based target would make the failure probability eight times higher for India than for Canada. Jochen Köhler framed the issue as the choice of the community of solidarity – a nation, a region or the world – which is a societal decision. Arnold Yuan and Colin Caprani noted that differentiated targets within a jurisdiction are already practice, by uncertainty (construction quality) or by level of inspection, as in the Canadian bridge standard.</p>
+<p><strong>Convergence.</strong> Closing with the flood safety example, the speaker and Jochen Köhler found that they were “not on different pages”: the acceptance limit was always meant as a floor marking the domain of morally valid decisions, within which society should seek the optimum; the missing element in current code making is the articulation of a base case, and for discrete options in practice an optimisation is easier to handle than an effectiveness criterion.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="s1_cao.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="s2_discussion.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">The Principles – Moderated Discussion</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Joint Committee on Structural Safety
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
