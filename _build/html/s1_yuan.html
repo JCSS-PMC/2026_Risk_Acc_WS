@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>A Macroeconomic Framework for Determining a Proper Level of Investment on Infrastructure Renewal &#8212; Workshop Documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 's1_yuan';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC" href="s1_cao.html" />
+    <link rel="prev" title="Introduction: Welcome and Workshop Objectives" href="session0.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="_static/searchtools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="searchindex.js"></script>
+  
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/JCSS_logo.png" class="logo__image only-light" alt="Workshop Documentation - Home"/>
+    <img src="_static/JCSS_logo.png" class="logo__image only-dark pst-js-only" alt="Workshop Documentation - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Societal Preferences on Risk Acceptance
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">The Workshop</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="programme.html">Programme and Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session0.html">Introduction: Welcome and Workshop Objectives</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 1 – Foundations of Societal Risk Acceptance: Principles</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">A Macroeconomic Framework for Determining a Proper Level of Investment on Infrastructure Renewal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s1_cao.html">Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s1_pandey.html">Reassessment and Reformulation of the LQI Framework for the Optimisation of Structural Safety</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 2 – The Principles: Moderated Discussion</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s2_discussion.html">The Principles – Moderated Discussion</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 3 – Risk Acceptance in Regulation and Practice</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s3_koehler.html">Risk Acceptance Regulation in Europe – One Market, Many Rationales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s3_steenbergen.html">Risk Acceptance in the Netherlands – Flood Defence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s3_caprani.html">Risk Acceptance Practice and Regulation in Australia – Australian Practice and the Case for Symmetry</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 4 – Applications</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s4_knibbe_steenbergen.html">Including CO₂ Emissions in Risk Acceptance Criteria – Augmented LQI Criterion and Combined Optimisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s4_goda.html">Multi-Hazard Perspectives of Acceptable Shaking–Tsunami Risks for Coastal Communities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s4_zhou.html">Probabilistic Tornado Wind Hazard Maps for Canada</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 5 – Conclusions and Outlook</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s5_discussion.html">Conclusions and Outlook – Closing of the Workshop and Written Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions of the Workshop</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/2026_Risk_Acc_WS" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/2026_Risk_Acc_WS/issues/new?title=Issue%20on%20page%20%2Fs1_yuan.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/s1_yuan.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>A Macroeconomic Framework for Determining a Proper Level of Investment on Infrastructure Renewal</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="a-macroeconomic-framework-for-determining-a-proper-level-of-investment-on-infrastructure-renewal">
+<h1>A Macroeconomic Framework for Determining a Proper Level of Investment on Infrastructure Renewal<a class="headerlink" href="#a-macroeconomic-framework-for-determining-a-proper-level-of-investment-on-infrastructure-renewal" title="Link to this heading">#</a></h1>
+<p><strong>Arnold X.-X. Yuan, Department of Civil Engineering, Toronto Metropolitan University, Canada</strong></p>
+<p>Session 1 · Wednesday 21 October 2026, 13.36–14.26 (presentation and discussion)</p>
+<p><a class="reference download internal" download="" href="_downloads/4d3a188d24de030480a6446e950f26ca/Yuan_Macroeconomic_Framework_Infrastructure_Renewal.pdf"><span class="xref download myst">Presentation slides (PDF)</span></a></p>
+<p>Based on: R. Zhang, A. Yuan, C. Angyridis (2026), <em>Beyond managerial efficiency: an economic welfare criterion for asset management planning</em>, ASCE J. Infrastructure Systems (under review); R. Zhang, C. Angyridis, A. Yuan (2026), <em>Potholes to prosperity: a micro–macro framework for growth-oriented road infrastructure investment allocation</em>, Research in Transportation Economics 120, 101862, <a class="reference external" href="https://doi.org/10.1016/j.retrec.2026.101862">doi:10.1016/j.retrec.2026.101862</a>.</p>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<p>The presentation was offered as an “appetizer”: a non-structural problem – how much a city should invest in its road network – that leads to the same question as <em>how safe is safe enough</em>, namely which point on a cost–performance frontier society should choose.</p>
+<p><strong>The affordable level-of-service problem.</strong> The story started in Calgary in 2023. The city evaluates the condition of its roads every year in terms of a Pavement Quality Index (PQI); the backlog had reached CAD 550 million while the annual rehabilitation budget was CAD 40 million. The city council directed the administration to report back with a recommended PQI and the minimum annual capital budget needed to achieve it – in structural terms: what is the minimum safety target, and what is the minimum investment to achieve it? The analysis commissioned from the speaker’s group led, one year later, to a council decision to raise the budget to CAD 116 million.</p>
+<p><strong>What asset management can and cannot answer.</strong> Infrastructure asset management (IAM) follows a well-established workflow – inventory, segmentation, inspection, condition assessment, deterioration modelling, life-cycle strategies and network prioritisation. Network prioritisation is a combinatorial optimisation under budget constraints (here solved with deep reinforcement learning for tens of thousands of assets), which yields level-of-service (LOS) evolution curves for a given level of investment (LOI) and, in the steady state, a Pareto frontier of LOI versus LOS. The frontier is managerially efficient, but it does not say which point on it is the right one; that question lies outside the asset management exercise. Possible routes to an answer are public consultation, national benchmarking (e.g. the Canadian Core Public Infrastructure survey), risk-informed decision making (financial, safety, environmental and political risk) – or a macroeconomic analysis, which translates the Pareto curve into a societal welfare curve with an identifiable optimum between under- and over-investment.</p>
+<p><strong>The integrated IAM–DGE model.</strong> A neoclassical dynamic general equilibrium (DGE) model has three agents: firms produce GDP <span class="math notranslate nohighlight">\(y_t = A\,k_t^{\alpha} L_t^{\beta}\)</span> from private capital and labour; the government takes a share <span class="math notranslate nohighlight">\(\tau\)</span> through taxation; households split after-tax output between consumption and private investment, and lifetime welfare <span class="math notranslate nohighlight">\(U = \sum_t \beta^t \ln c_t\)</span> is the implicit criterion of the whole system, with the government acting as social planner. The innovation is to endogenise infrastructure: the production function is extended by public capital <span class="math notranslate nohighlight">\(k_{g,t}\)</span> and the quality of the infrastructure <span class="math notranslate nohighlight">\(Q_t\)</span> with an output elasticity <span class="math notranslate nohighlight">\(\theta\)</span>; <span class="math notranslate nohighlight">\(Q_t\)</span> is exactly what the IAM programme delivers for a given investment <span class="math notranslate nohighlight">\(i(Q)\)</span>. The government policy – the tax rate <span class="math notranslate nohighlight">\(\tau\)</span> – is then chosen to maximise welfare, expressed as consumption-equivalent variation (CEV), and the optimal <span class="math notranslate nohighlight">\(\tau^*\)</span> corresponds to an optimal level of service <span class="math notranslate nohighlight">\(Q^*\)</span>. Calibration treats the current economy as a steady state; the policy change acts as a “shock”, after which the economy settles in a new steady state, much like a structural dynamics problem.</p>
+<p><strong>Calgary results.</strong> With <span class="math notranslate nohighlight">\(\theta = 0.05\)</span> the welfare curve is very flat around its maximum; with <span class="math notranslate nohighlight">\(\theta = 0.01\)</span> the optimum is sharper, at about CAD 106 million per year – close to the CAD 116 million proposed and adopted. The elasticity <span class="math notranslate nohighlight">\(\theta\)</span> is the key uncertain parameter: a meta-analysis of three decades of empirical studies (Bom and Ligthart 2014; about 780 estimates) gives an average of about 0.1 with a large spread; the first study (Aschauer, 1989) for the US interstate system found about 0.1, but municipal roads serve welfare more than economic growth, hence the lower value.</p>
+<p><strong>Extension to structural safety.</strong> The LQI can be derived from the lifetime utility of a consumption stream: with constant consumption, the utility <span class="math notranslate nohighlight">\(c^q\)</span> and the discounted remaining life expectancy at age <span class="math notranslate nohighlight">\(a\)</span>, integrated over the age distribution, give <span class="math notranslate nohighlight">\(L = G^{w/(1-w)} E\)</span>. The same ingredients appear in the DGE model. In a safety version of the framework, the investment on the left-hand side becomes a safety investment expressed through <span class="math notranslate nohighlight">\(\beta\)</span> or <span class="math notranslate nohighlight">\(p_f\)</span>; the change in failure probability changes mortality, mortality changes labour <span class="math notranslate nohighlight">\(L_t\)</span> (and the working-time fraction), and the utility function is made LQI-compatible. The advantage would be that consumption no longer needs to be assumed constant but is produced by the dynamic equilibrium. The speaker stressed that this part is a proposal and a call for cooperation; everything else in the framework can be kept.</p>
+<p><strong>Conclusions.</strong> IAM planning gives a managerially efficient solution under a given budget but does not resolve the LOI–LOS trade-off; the integrated IAM–DGE framework offers a societal welfare perspective that identifies a unique LOI; the framework may be extended to structural safety target setting, with the LQI informing the formulation of the utility function.</p>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Link to this heading">#</a></h2>
+<p><em>Summary of the discussion following the presentation (edited from the recording).</em></p>
+<p>The discussion turned first to the ethical question of connecting economic activity with investments in life safety. Jochen Köhler argued that the derivation of risk acceptance limits should keep the two apart: the marginal life-saving cost principle deliberately considers only the cost of the mitigation measures, so that an economic benefit can never become an argument for less risk mitigation. Arnold Yuan agreed that this was the question that worried him most. In his framework the benefit of a safety investment becomes visible through its economic effects, and the channel – as in the LQI – is the change in labour, the time available for leisure rather than work; what the framework does not yet consider is the distribution of the benefits within the population, an equity question. Jatin Nathwani added that the early LQI work had struggled with the same point and had concluded that safety and productivity reinforce each other: not investing in safety means more injury and illness, which reduces the productivity needed to generate wealth, so an either/or between safety and production is a false dichotomy.</p>
+<p>A second thread concerned the key parameter of the model, the output elasticity of public capital θ. The empirical literature (about 780 estimates aggregated by Bom and Ligthart, 2014) scatters widely around small positive values, with Aschauer’s original 0.1 for the US interstate system as the starting point; for municipal roads, which serve welfare more than growth, the speaker had deliberately gone down to 1 %. θ strongly influences the optimal level of investment, and with 5 % the welfare curve shows no clear peak.</p>
+<p>Several participants asked how the framework transfers to structural safety. A participant doubted that it can answer <em>how safe is safe enough</em> for the target reliability; the speaker explained that the link would be the investment-versus-β curve on the one hand and the LQI chain – β, mortality, labour – on the other, admitting that this is still abstract. Jochen Köhler pointed out that the relation between investment and safety level differs between types of infrastructure and between life-risk scenarios (collapse versus accident), so that the effectiveness of an investment in reducing the fatality rate would have to be filtered by activity; the speaker suggested the Ontario bridge inventory as a possible case study. Mahesh Pandey welcomed the framework as the more closed economic model that had always been intended to complement the steady-state LQI, and asked about the origin of the production-function exponents (A calibrated on the Calgary economy, α a default of about 0.3–0.35, labour constant). To the objection that the model is calibrated on an economy that already contains the intervention, the speaker explained that the current economy is treated as a steady state and a change in the policy variable τ acts as a shock after which the economy settles into a new steady state – the strength of the dynamic general equilibrium model.</p>
+<p>Alex Cao closed by noting that the framework addresses optimality rather than acceptance, and Jochen Köhler framed this as the central question for the panel discussion: according to ISO 2394 acceptance considers only the cost of mitigation, never an economic benefit, while the speaker’s framework – as he confirmed – belongs to the optimality side.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="session0.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Introduction: Welcome and Workshop Objectives</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="s1_cao.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Joint Committee on Structural Safety
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

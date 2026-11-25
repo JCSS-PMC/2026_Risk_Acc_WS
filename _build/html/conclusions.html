@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Conclusions of the Workshop &#8212; Workshop Documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'conclusions';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Conclusions and Outlook – Closing of the Workshop and Written Contributions" href="s5_discussion.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="_static/searchtools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="searchindex.js"></script>
+  
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/JCSS_logo.png" class="logo__image only-light" alt="Workshop Documentation - Home"/>
+    <img src="_static/JCSS_logo.png" class="logo__image only-dark pst-js-only" alt="Workshop Documentation - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Societal Preferences on Risk Acceptance
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">The Workshop</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="programme.html">Programme and Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session0.html">Introduction: Welcome and Workshop Objectives</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 1 – Foundations of Societal Risk Acceptance: Principles</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s1_yuan.html">A Macroeconomic Framework for Determining a Proper Level of Investment on Infrastructure Renewal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s1_cao.html">Setting Reliability Targets from Welfare Optima: Implications for ISO 2394 and the JCSS PMC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s1_pandey.html">Reassessment and Reformulation of the LQI Framework for the Optimisation of Structural Safety</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 2 – The Principles: Moderated Discussion</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s2_discussion.html">The Principles – Moderated Discussion</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 3 – Risk Acceptance in Regulation and Practice</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s3_koehler.html">Risk Acceptance Regulation in Europe – One Market, Many Rationales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s3_steenbergen.html">Risk Acceptance in the Netherlands – Flood Defence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s3_caprani.html">Risk Acceptance Practice and Regulation in Australia – Australian Practice and the Case for Symmetry</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 4 – Applications</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s4_knibbe_steenbergen.html">Including CO₂ Emissions in Risk Acceptance Criteria – Augmented LQI Criterion and Combined Optimisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s4_goda.html">Multi-Hazard Perspectives of Acceptable Shaking–Tsunami Risks for Coastal Communities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="s4_zhou.html">Probabilistic Tornado Wind Hazard Maps for Canada</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 5 – Conclusions and Outlook</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="s5_discussion.html">Conclusions and Outlook – Closing of the Workshop and Written Contributions</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Conclusions of the Workshop</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/2026_Risk_Acc_WS" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/2026_Risk_Acc_WS/issues/new?title=Issue%20on%20page%20%2Fconclusions.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/conclusions.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Conclusions of the Workshop</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-lqi-framework-floor-and-optimum">1. The LQI framework: floor and optimum</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inputs-normalisation-and-standardisation">2. Inputs, normalisation and standardisation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#epistemic-uncertainty-comparative-and-absolute-probabilities">3. Epistemic uncertainty, comparative and absolute probabilities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-risk-risk-aversion-and-system-size">4. Individual risk, risk aversion and system size</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#non-monetary-consequences-and-co2">5. Non-monetary consequences and CO₂</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regulation-and-practice">6. Regulation and practice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ethical-duty-of-the-profession">7. The ethical duty of the profession</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#communication-and-perception">8. Communication and perception</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-should-follow">What should follow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-questions">Open questions</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="conclusions-of-the-workshop">
+<h1>Conclusions of the Workshop<a class="headerlink" href="#conclusions-of-the-workshop" title="Link to this heading">#</a></h1>
+<p><em>Draft for review by the participants – prepared by the organisers from the presentations and the recorded discussions. Comments are welcome and will be worked in before the conclusions are circulated as a JCSS note.</em></p>
+<p>The workshop set out to revisit the foundations of societal risk acceptance criteria – the Life Quality Index (LQI), the societal willingness to pay (SWTP) and the derived measures – in the light of recent critique, to hear how risk acceptance is regulated in practice in different world regions, and to find out whether the JCSS should update its paradigm. The following is an attempt to capture where the discussions converged, where they did not, and what should follow. It builds on the <a class="reference external" href="https://jcss-pmc.github.io/2023_Risk_Acc_WS/conclusions.html">conclusions of the Trondheim workshop of 2023</a>, which were taken as the starting point and were not contested.</p>
+<section id="the-lqi-framework-floor-and-optimum">
+<h2>1. The LQI framework: floor and optimum<a class="headerlink" href="#the-lqi-framework-floor-and-optimum" title="Link to this heading">#</a></h2>
+<p>The discussion of the first day centred on the role of the LQI criterion in structural safety. In the current paradigm of ISO 2394 and the Probabilistic Model Code, target reliabilities are derived from a monetary optimisation, and the LQI criterion in its break-even form – the marginal life-saving cost principle, SWTP – acts as a lower bound for life safety (“the mixed approach”). Three contributions questioned this arrangement from different directions:</p>
+<ul class="simple">
+<li><p>the reassessment of the LQI framework showed that its basic postulate was always to <em>maximise the net benefit to society</em>; the break-even condition and the SWTP were developed as screening tools for situations where only the cost of a measure was known, and their generalisation into a minimum acceptable safety level was, in retrospect, a regressive development. When the structural safety optimisation is formulated in parallel to the life-cycle cost minimisation, a break-even condition does not exist, and the LQI can be used directly as the objective function;</p></li>
+<li><p>the welfare-optimal criterion, derived in the same format as the ISO criterion, lies above the minimum and depends on the decision itself; applied to all countries of the world it gives target reliabilities in a narrow band, whereas the minimum criterion spreads over orders of magnitude in failure probability – which is exactly the critique (Bhattacharya) that motivated the workshop;</p></li>
+<li><p>the macroeconomic perspective showed that the question “which point on the cost–performance frontier should society choose” can be answered within a dynamic general equilibrium model, and that the LQI can inform the utility function of such a model; this is an optimisation problem, not an acceptance problem.</p></li>
+</ul>
+<p>The discussion arrived at a reading on which, we think, most participants could agree:</p>
+<ol class="arabic simple">
+<li><p><strong>Society, as the decision maker behind the codes, should be interested in the optimum, not in the minimum.</strong> Being at the minimum means losing welfare. Where the optimum is judged not to be robust – because of systemic uncertainty, bounded rationality or the sensitivity of the objective function – the robust choice is on the safer side of the optimum, not between minimum and optimum.</p></li>
+<li><p><strong>The acceptance criterion marks the domain of valid decisions.</strong> The break-even condition separates decisions with a positive from those with a negative effect on life quality; the latter are “morally unacceptable”, whatever other considerations may argue for them. The floor is needed where decisions are taken with other utilities than the societal one – a company optimising its own investment, project-specific drivers that lead to a particular decision scenario – and where only very expensive mitigation options are available, so that optimum and acceptable risk would otherwise fall to levels society would never accept.</p></li>
+<li><p><strong>The two are consistent, provided the problem is formulated with a base case.</strong> Much of the apparent disagreement dissolved when it was recognised that the structural safety optimisation, as commonly written, has no base case: the decision to build is already taken, the benefit cancels, and the reference state of zero failure probability is an abstraction. With a proper base case – an existing structure, a do-nothing alternative, as in the flood safety example – acceptable, LQI-optimal and cost-optimal probabilities can all be derived in one consistent formulation, and the acceptable one is the least strict. Code making does not articulate such a base case today; it should.</p></li>
+<li><p><strong>Economic benefit and life safety.</strong> There was agreement that the economic benefit of a structure must not enter the life-safety criterion: a more valuable structure does not justify a higher fatality risk, and the marginal life-saving cost principle looks only at the cost of mitigation. The LQI as objective function does not change this, since the benefit is independent of the design parameter; what the LQI formulation adds is the consistent treatment of the two consequences of a chosen failure probability – cost and mortality – in one measure, expressed in life years.</p></li>
+</ol>
+<p>Open: the precise form in which the optimum should enter codes (a target with justified deviations, in both directions?), the interpretation of the welfare-optimal criterion’s state-dependent mortality term, and whether an LQI-based optimisation can replace the monetary optimisation in the Probabilistic Model Code or should stand beside it.</p>
+</section>
+<section id="inputs-normalisation-and-standardisation">
+<h2>2. Inputs, normalisation and standardisation<a class="headerlink" href="#inputs-normalisation-and-standardisation" title="Link to this heading">#</a></h2>
+<p>Several contributions pointed out that the results of any of these criteria are governed by a few inputs whose treatment is, so far, buried in the derivations:</p>
+<ul class="simple">
+<li><p>how the cost of a measure is transferred to the GDP per person (equal distribution over the exposed population and the service life, like a tax; amortisation or insurance logic as alternatives); the normalisation by the construction cost per unit area makes the inter-country differences transparent (the ratio of construction cost to GDP per person);</p></li>
+<li><p>the cost model: the linear dependence of the safety-related cost on the central safety factor is a convention; realistic cost ratios require real structures designed to different reliability levels or consequence classes, and the “safety-related” share of the construction cost (about a quarter for an office building) is a heuristic;</p></li>
+<li><p>the discount rate, the demographic constant and the parameter <em>q</em>, for which sensitivity studies exist but a documented choice is needed;</p></li>
+<li><p>the GDP per person as the measure of societal wealth, which hides the distribution within a country (the discussion on Mumbai and rural India); the LQI-optimal formulation dampens this sensitivity, and the question is ultimately which community of solidarity – a nation, a region, the world – the criterion refers to; that is itself a societal decision;</p></li>
+<li><p>missing or inconsistent national data, for which hierarchical Bayesian imputation was suggested.</p></li>
+</ul>
+<p><strong>The conclusion was to standardise the procedure rather than the number.</strong> The absolute value of a reliability index is conditional on the models, data and conventions by which it is computed; what can be standardised is the procedure and its inputs. This is the task of the Probabilistic Model Code. A documented, standardised set of inputs – GDP per person, life expectancy, work-time fraction, discounting, cost ratios – and one agreed value per prevented fatality per country, consistently applied across decisions, would already be a big step towards consistency; whether one value across technical domains is desirable or whether domain-specific tolerability is legitimate remained open.</p>
+</section>
+<section id="epistemic-uncertainty-comparative-and-absolute-probabilities">
+<h2>3. Epistemic uncertainty, comparative and absolute probabilities<a class="headerlink" href="#epistemic-uncertainty-comparative-and-absolute-probabilities" title="Link to this heading">#</a></h2>
+<p>The concern that calculated failure probabilities cannot be verified against observed collapse rates, and that neglected failure modes or hidden safety make them wrong in either direction, was raised online and answered in two ways. From the code calibration perspective, target reliabilities and the derived criteria are calibration results that are only valid within the model universe in which they were derived; the comparison of alternatives within the same universe is robust against epistemic uncertainty, and the principle is to state the assumptions, to judge an analysis as right or wrong on its technical execution and the assumptions as adequate or not for the information available at the time. From the Dutch flood safety perspective, however, the probabilities <em>do</em> have an absolute character: they are used against an individual risk limit and in a cost optimisation that decides on dike heights, and this requires extra effort – a system reliability analysis of the whole dike ring with correlated failure mechanisms, the verification that the sub-population and the state of information used in the probabilistic models correspond to each other, calibration with local measurements, proven strength – and, importantly, an institutional process in which no single engineer is decisive. Both views were accepted as valid for their respective decision problems; the difference lies in how the decision depends on the absolute value.</p>
+</section>
+<section id="individual-risk-risk-aversion-and-system-size">
+<h2>4. Individual risk, risk aversion and system size<a class="headerlink" href="#individual-risk-risk-aversion-and-system-size" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Individual risk.</strong> Optimisation and the LQI criteria deal with the average risk over a group of people. An additional limit on the individual risk is needed, for two reasons: the uneven distribution of risk within the group (Dutch Water Act: a basic protection level of 10<sup>−5</sup> per year for everyone, the envelope with the cost optimisation defining the standard), and the case of very expensive mitigation options, where optimum and acceptable risk would fall to levels never accepted. ALARP, i.e. the marginal criterion, is thus applied within boundaries given by the individual risk. These boundaries have to be formulated in absolute terms, which makes them sensitive to the assumptions of the analysis; the JCSS meeting following the workshop was to look at individual risk more closely.</p></li>
+<li><p><strong>Risk aversion.</strong> As in Trondheim 2023: risk aversion exists as a description of how people and policy makers behave, but the policy-making domain requires normative decision making; the disproportionate consequences of large accidents belong in the consequence model, not in an aversion factor or in F–N criterion lines with a slope steeper than one. The founders of the LQI were, for reasons of transparency, against aversion factors. Empirical studies of stated preferences exist but are rare and one has to be careful to learn from uninformed decisions.</p></li>
+<li><p><strong>System size.</strong> F–N curves and societal risk criteria are only meaningful for a defined system size, and the system should be the one affected by the decision at hand – a community, a facility, a network. Standardised, repeated components (a thousand identical girders, modular construction) change the consequences of a component failure into those of a network closure and a posterior re-assessment of all instances; the frameworks can handle this as long as the network is defined, but the code’s component-based targets do not.</p></li>
+</ul>
+</section>
+<section id="non-monetary-consequences-and-co2">
+<h2>5. Non-monetary consequences and CO₂<a class="headerlink" href="#non-monetary-consequences-and-co2" title="Link to this heading">#</a></h2>
+<p>Including shadow-costed CO₂ emissions in the LQI criterion makes the life-safety requirement slightly <em>more lenient</em> (Δβ ≈ 0.1–0.3 for a steel beam), since emissions add more to the cost of safety than to the consequences of failure; “climate classes” defined by the ratio of shadow price to material cost could be an addition to the ISO 2394 tables, and a two-objective (cost–emission) optimisation is an alternative for specific structures. The discussion raised: whether emissions should be discounted at all and at which rate (differential discounting); that longer service lives and fewer reconstructions reduce emissions, so that the direction of the effect depends on the formulation; that the material choice would influence the safety requirement; and the general question of externalities – whether to express them in the currency of the model (a price on a life, a tree, a view) or to treat them as a separate dimension of the decision. The break-even criterion has here an additional appeal: it marks the domain of decisions with a positive societal development, within which a CO₂ optimisation can be carried out. A caution was expressed that non-fatality harms and other externalities are routinely left out while the result is presented as “social welfare considered”. Societal preferences, GDP and life expectancy change over the life of a structure; stationarity is assumed, so either the targets carry an expiry date or the non-stationarity has to be built in.</p>
+</section>
+<section id="regulation-and-practice">
+<h2>6. Regulation and practice<a class="headerlink" href="#regulation-and-practice" title="Link to this heading">#</a></h2>
+<p>The overview of European regulation, the Dutch flood defence standard and Australian practice gave a consistent picture:</p>
+<ul class="simple">
+<li><p>There is no common risk acceptance criterion across domains or countries. Absolute limits prevail where the hazard is technical and the public is a third party (aviation, nuclear, external safety); relative, ALARP-type criteria where decisions are project specific and the regulator is mature. The marginal life-saving cost logic is the only rationale shared across domains (ISO 2394 Annex G, Swiss tunnels, UK cost–benefit, Dutch dike optimisation), but with different values and units.</p></li>
+<li><p>In the building sector the treatment of risk acceptance is implicit – consequence classes without a cost component, a central β = 3.8 that has not moved for thirty years and is a calibration result, not a societal risk criterion. ISO 2394 Annex G is the only code document that states its life-safety rationale explicitly. Industries are hesitant to be explicit about life safety because it becomes a value judgment; they prefer implicit surrogates (core damage frequency). Whether EN 1990 should state its life-safety rationale explicitly, and who sets the criterion for CC4, remained for discussion.</p></li>
+<li><p>Fixed numbers do not drive improvement: criteria rarely move, since a regulator is criticised from both sides whenever they change, and quantitative criteria risk turning risk analysis into a compliance check. Relative criteria and periodic revision keep criteria alive as risks fall.</p></li>
+<li><p>The expensive decisions in practice do not come from the calibration of β but from gross prescriptions – a 10 m setback, a collision load at any angle – that reflect an uncalibrated risk attitude, while real safety problems (Opal Tower, West Gate) are matters of competence, checking and traceability rather than of target reliabilities. Designed, built and experienced reliability are different things.</p></li>
+</ul>
+</section>
+<section id="the-ethical-duty-of-the-profession">
+<h2>7. The ethical duty of the profession<a class="headerlink" href="#the-ethical-duty-of-the-profession" title="Link to this heading">#</a></h2>
+<p>The proposal that <strong>undue conservatism should be professionally unacceptable</strong> found broad agreement. Retaining an over-conservative requirement commits society’s resources as much as changing it, and should require the same evidence and the same current competence; the burden of proof in code committees is today asymmetric, and the people who lose protection elsewhere are no less real because they cannot be identified. Two qualifications were made: the argument assumes that the fraction of wealth society devotes to safety is constant, which is itself a societal decision, so the profession’s responsibility is to use minimally what it demands and to trust the allocation of the released resources rather than to model the other side; and money is only a surrogate for resources. The JCSS was asked to state this duty explicitly, to insist on technically competent review of calibration proposals, and to make clear that keeping an existing clause is not the default position.</p>
+</section>
+<section id="communication-and-perception">
+<h2>8. Communication and perception<a class="headerlink" href="#communication-and-perception" title="Link to this heading">#</a></h2>
+<p>Quantitative results – F–N curves, risk maps – are not understood by the public and barely by decision makers; experts have to take responsibility and decide on behalf, but a mechanism is needed to hear what those who bear the risk want (community asset mapping, stress testing of community capacity). Expressing the additional mortality as a loss of life expectancy (days) may communicate better than annual probabilities. Flood risk maps in the Netherlands do not show in house prices or insurance premiums; those who live in exposed but attractive places have implicitly accepted their risk, which can be read backwards from the situation. Voluntary and involuntary exposure differ.</p>
+</section>
+<section id="what-should-follow">
+<h2>What should follow<a class="headerlink" href="#what-should-follow" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>A short JCSS note on societal risk acceptance</strong>, drafted from these conclusions and circulated to the participants, as input to the Probabilistic Model Code and to the revision of ISO 2394.</p></li>
+<li><p><strong>A consistent formulation</strong> of the structural safety decision problem with a base case, from which acceptable, LQI-optimal and cost-optimal targets follow, and a comparison of the LQI-optimal and the monetary optimisation for the PMC background documents; the role of the floor to be stated as the boundary of valid decisions.</p></li>
+<li><p><strong>Standardised inputs and procedure</strong> – GDP per person, life expectancy, work-time fraction, discounting, cost ratios, one value per prevented fatality per country – documented in the PMC, including a recommendation on the treatment of missing data.</p></li>
+<li><p><strong>Individual risk</strong> as a backstop in codes: follow-up in the JCSS Working Parties.</p></li>
+<li><p><strong>Systems and repeated components, existing structures</strong>: how the component-based targets translate to networks and to the assessment of existing structures, where the base case exists.</p></li>
+<li><p><strong>CO₂ and non-monetary consequences</strong>: climate classes, differential discounting, the direction of the effect; coordination with the work on sustainability in code calibration.</p></li>
+<li><p><strong>A statement on the ethical duty</strong> of the profession with respect to undue conservatism, and a strategy for the dialogue with code committees – ISO 2394 and its national adoptions as the lever.</p></li>
+<li><p><strong>Keep the criteria alive</strong>: a recommendation on the periodic revision of target reliabilities and acceptance values.</p></li>
+</ol>
+</section>
+<section id="open-questions">
+<h2>Open questions<a class="headerlink" href="#open-questions" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Should codes state an optimum with justified deviations rather than a minimum – and who justifies a deviation?</p></li>
+<li><p>How is the base case to be defined for new structures in a code, where “do nothing” is not an option?</p></li>
+<li><p>One value per prevented fatality across domains, or domain-specific tolerability?</p></li>
+<li><p>Which community of solidarity does a GDP-based criterion refer to?</p></li>
+<li><p>Should emissions be discounted, and at what rate?</p></li>
+<li><p>How can the model universe of the target be kept consistent with the model universe of the analysis in practice – and what does that mean for absolute criteria such as individual risk?</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="s5_discussion.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Conclusions and Outlook – Closing of the Workshop and Written Contributions</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-lqi-framework-floor-and-optimum">1. The LQI framework: floor and optimum</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inputs-normalisation-and-standardisation">2. Inputs, normalisation and standardisation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#epistemic-uncertainty-comparative-and-absolute-probabilities">3. Epistemic uncertainty, comparative and absolute probabilities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-risk-risk-aversion-and-system-size">4. Individual risk, risk aversion and system size</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#non-monetary-consequences-and-co2">5. Non-monetary consequences and CO₂</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regulation-and-practice">6. Regulation and practice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ethical-duty-of-the-profession">7. The ethical duty of the profession</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#communication-and-perception">8. Communication and perception</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-should-follow">What should follow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-questions">Open questions</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Joint Committee on Structural Safety
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+# Book settings
+title: Workshop Documentation
+author: Joint Committee on Structural Safety
+logo: JCSS_logo.png
+copyright: "2026"
+
+execute:
+  execute_notebooks: 'off'
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+repository:
+  url: https://github.com/JCSS-PMC/2026_Risk_Acc_WS
+  path_to_book: ""
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  home_page_in_navbar: true
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - colon_fence
+    - linkify
+    - substitution
+
+sphinx:
+  config:
+    html_show_copyright: false
+    exclude_patterns: [README.md, REVIEW_NOTES.md, _build, .DS_Store]

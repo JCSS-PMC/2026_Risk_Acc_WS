@@ -1,0 +1,29 @@
+format: jb-book
+root: intro
+parts:
+  - caption: The Workshop
+    chapters:
+      - file: programme
+      - file: session0
+  - caption: "Session 1 – Foundations of Societal Risk Acceptance: Principles"
+    chapters:
+      - file: s1_yuan
+      - file: s1_cao
+      - file: s1_pandey
+  - caption: "Session 2 – The Principles: Moderated Discussion"
+    chapters:
+      - file: s2_discussion
+  - caption: "Session 3 – Risk Acceptance in Regulation and Practice"
+    chapters:
+      - file: s3_koehler
+      - file: s3_steenbergen
+      - file: s3_caprani
+  - caption: "Session 4 – Applications"
+    chapters:
+      - file: s4_knibbe_steenbergen
+      - file: s4_goda
+      - file: s4_zhou
+  - caption: "Session 5 – Conclusions and Outlook"
+    chapters:
+      - file: s5_discussion
+      - file: conclusions
